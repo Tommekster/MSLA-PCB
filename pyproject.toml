@@ -4,6 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["Re-l"]
 readme = "README.md"
+packages = [
+    { include = "pdf2png.py", to = "msla_pcb" },
+    { include = "png2stl.py", to = "msla_pcb" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
